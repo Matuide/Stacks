@@ -6,7 +6,10 @@ namespace Stacks
     {
         static void Main(string[] args)
         {
-            Stack NewStack = new Stack(10);
+            Stack Deck = new Stack(52);
+            Stack PlayerHand = new Stack(6);
+            Stack ComputerHand = new Stack(6);
+            Stack Crib = new Stack(4);
             string quit = "";
             while ( quit != "Q")
             {
